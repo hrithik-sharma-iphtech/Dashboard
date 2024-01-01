@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 100%;
+  background-color: #f9f9fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.sidebar {
+  height: 100%;
+}
+.sidebarList {
+  height: auto;
+  margin-top: 50px;
+  padding: 0;
+  width: 100%;
+  color: #333;
+}
+
+.sidebarList .rowItems {
+  width: 100%;
+  height: 68px;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-weight: 700;
+  font-size: 17px;
+}
+.linkItem {
+  color: #333;
+}
+
+.sidebarList .rowItems:hover,
+.linkItem:hover {
+  cursor: pointer;
+  color: #323a90;
+}
+
+.rowItems #sidebarTitle {
+  flex: 70%;
+  padding-left: 50px;
+}
+.fileMngrPara {
+  font-size: 12px;
+}
+.btn-getFile {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #323a90;
+  color: #fff;
+  font-weight: 500;
+}
+.logoName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #323a90;
+}
+.title {
+  font-size: 23px;
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.searchIcon {
+  background-color: #abadcd9a;
+  padding: 3px;
+  margin: 0 12px 0 25px;
+  border-radius: 10px;
+}
+.langIcon {
+  font-size: 15px;
+  font-weight: 700;
+}
+.leftScreen {
+  padding-top: 4%;
+  background-color: #fefefe;
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; */
+  width: 250px;
+}
+.midScreen {
+  padding-top: 4%;
+  /* background-color: #e7e7ec; */
+  width: 70%;
+  align-items: center;
+}
+.cardTitle {
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.cardText {
+  font-weight: 800;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.headMileStone {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-left: 35px;
+  max-height: 200px;
+}
+.taskHead {
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.taskText {
+  font-size: 10px;
+  margin-top: -15px;
+}
+
+.graph_heading {
+  text-align: left;
+  margin-left: 35px;
+  margin-top: -27px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.rightScreen {
+  padding-top: 3%;
+  background-color: #c3cbf639;
+  padding-bottom: 4%;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: -10px;
+}
+.right_imageBox {
+  margin-top: 100px;
+}
+.adminPanel {
+  margin-top: 65px;
+}
